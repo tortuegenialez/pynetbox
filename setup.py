@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         'requests>=2.20.0,<3.0',
-        'six==1.*',
+        'six>=1.0',
     ],
     zip_safe=False,
     keywords=['netbox'],
